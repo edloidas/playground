@@ -1,0 +1,22 @@
+{
+  "name": "playground",
+  "version": "1.0.0",
+  "description": "A minimum configuration to compile, test and run simple TypeScript in node.",
+  "private": true,
+  "author": "Mikita Taukachou <edloidas@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/edloidas/playground",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edloidas/playground"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "node --test --require ts-node/register ./src/**/*.test.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.20",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
