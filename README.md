@@ -1,2 +1,3 @@
-# playground
-A minimum configuration to compile, test and run simple TypeScript in node.
+# Playground
+
+A small repo to test and play with different code, algorithms, etc.
